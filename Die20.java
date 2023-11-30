@@ -5,7 +5,7 @@
  * @Mr. Jaffe
  * @1.0 2017-07-13
  */
-public class die20
+public class Die20
 {
     /**
      * Contains the current value of the die
@@ -15,7 +15,7 @@ public class die20
     /**
      * Constructor to do an initial roll to set the first value
      */
-    public die20() {
+    public Die20() {
 
         this.roll();
     }
