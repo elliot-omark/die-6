@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=YahtzeeDice
+comment1.params=
+comment1.target=YahtzeeDice()
+comment1.text=\n\ Constructor\ to\ do\ an\ initial\ roll\ to\ set\ the\ first\ value\n
+comment2.params=
+comment2.target=java.lang.String\ getValue2()
+comment3.params=
+comment3.target=void\ roll()
+comment4.params=
+comment4.target=java.lang.String\ rollAndGetValue2()
+numComments=5

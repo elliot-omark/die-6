@@ -1,25 +1,19 @@
 
-/**
- * Abstracts one six-sided die (plural is dice)
- * 
- * @Mr. Jaffe
- * @1.0 2017-07-13
- */
-public class Two_dice
+public class Dice
 {
     /**
      * Contains the current value of the die
      */
-    private Die_n die1;
-    private Die_n die2;
-    private int value;
+    private Die6 die1;
+    private Die6 die2;
+    
     /**
      * Constructor to do an initial roll to set the first value
      */
-    public Two_dice(int sides){
-        this.die1= new
-        this.die2= new
-        this.roll();
+    public Dice(){
+        die1=new Die6();
+        die2=new Die6();
+
     }
 
     /**
@@ -27,7 +21,7 @@ public class Two_dice
      * @return Die value
      */
     public int getValue() {
-        return value;
+        return die1.getValue()+die2.getValue();
     }
 
     /**
@@ -35,9 +29,9 @@ public class Two_dice
      * Note that roll does NOT return the new value
      */
     public void roll() {
-        this.die1;
-        this.die2;
-        die1+die2=this.value;
+        die1.roll();
+        die2.roll();
+
     }
 
     /**
