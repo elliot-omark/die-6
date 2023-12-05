@@ -1,6 +1,5 @@
 #BlueJ class context
 comment0.target=Die_n
-comment0.text=\n\ Abstracts\ one\ six-sided\ die\ (plural\ is\ dice)\n\ \n\ @Mr.\ Jaffe\n\ @1.0\ 2017-07-13\n
 comment1.params=sides
 comment1.target=Die_n(int)
 comment1.text=\n\ Constructor\ to\ do\ an\ initial\ roll\ to\ set\ the\ first\ value\n
